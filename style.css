@@ -1,0 +1,35 @@
+/* Styles for the web application */
+
+/* footer color */
+.darkToneModify {
+    background-color: #1a1a2e;
+    padding: 20px; /* Puedes ajustar el padding según tus necesidades */
+    color: white; /* Para asegurar que el texto sea visible */
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .fsMin9Modify {
+    font-size: 0.9rem;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  /* Para dispositivos con ancho máximo de 560px */
+  @media screen and (max-width: 560px) {
+    .darkToneModify {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+  
